@@ -51,4 +51,4 @@ def handle_leave(data):
     send({'msg': f"{username} has left the room."}, to=room)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, host="0.0.0.0")
+    socketio.run(app)
